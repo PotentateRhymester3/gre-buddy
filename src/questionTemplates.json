@@ -1,0 +1,74 @@
+{
+    "quantReasoningList": [
+            { 
+              "id":"qr1", 
+              "type":"quantReasoning",
+              "optionalData":"",
+              "quantA":"x/(x+1)",
+              "quantB":"-x/(1-x)",
+              "choices": [
+                {"id":"a", "value":"A is greater"},
+                {"id":"b", "value":"B is greater"},
+                {"id":"c", "value":"The two quantities are equal"},
+                {"id":"d", "value":"The relationship cannot be determined from the information given"}
+              ],
+              "correctChoice": "b"
+            },
+            { 
+                "id":"qr2", 
+                "type":"quantReasoning",
+                "optionalData":"",
+                "quantA":"(2)(6)",
+                "quantB":"2 + 6",
+                "choices": [
+                  {"id":"a", "value":"A is greater"},
+                  {"id":"b", "value":"B is greater"},
+                  {"id":"c", "value":"The two quantities are equal"},
+                  {"id":"d", "value":"The relationship cannot be determined from the information given"}
+                ],
+                "correctChoice": "a"
+              },
+              { 
+                "id":"qr3", 
+                "type":"quantReasoning",
+                "optionalData":"The length of each side of equilateral triangle T is 6 times the length of each side of equilateral triangle X",
+                "quantA":"The ratio of the length of one side of T to the length of another side of T",
+                "quantB":"The ratio of the length of one side of X to the length of another side of X",
+                "choices": [
+                  {"id":"a", "value":"A is greater"},
+                  {"id":"b", "value":"B is greater"},
+                  {"id":"c", "value":"The two quantities are equal"},
+                  {"id":"d", "value":"The relationship cannot be determined from the information given"}
+                ],
+                "correctChoice": "c"
+              },
+              { 
+                "id":"qr4", 
+                "type":"quantReasoning",
+                "optionalData":"Of 30 theater tickets sold, 20 tickets were sold at prices between $10 and $30 each and 10 tickets were sold at prices between $40 and $60 each",
+                "quantA":"The average (arithmetic mean) of the prices of the 30 tickets",
+                "quantB":"$50.00",
+                "choices": [
+                  {"id":"a", "value":"A is greater"},
+                  {"id":"b", "value":"B is greater"},
+                  {"id":"c", "value":"The two quantities are equal"},
+                  {"id":"d", "value":"The relationship cannot be determined from the information given"}
+                ],
+                "correctChoice": "e"
+              },
+              { 
+                "id":"qr5", 
+                "type":"quantReasoning",
+                "optionalData":"In the xy-plane, the point (1,2) is on line j, and the point (2,1) is on line k. Each of the lines has a positive slope.",
+                "quantA":"The slope of line j",
+                "quantB":"The slope of line k",
+                "choices": [
+                  {"id":"a", "value":"A is greater"},
+                  {"id":"b", "value":"B is greater"},
+                  {"id":"c", "value":"The two quantities are equal"},
+                  {"id":"d", "value":"The relationship cannot be determined from the information given"}
+                ],
+                "correctChoice": "e"
+              }
+    ]
+}

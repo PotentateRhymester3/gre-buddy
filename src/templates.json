@@ -1,0 +1,64 @@
+{
+    "quantReasoning": [
+            {  
+              "type":"quantReasoning",
+              "optionalData":"",
+              "quantA":"x / ( x + 1 )",
+              "quantB":"-x / ( 1 - x )",
+              "variableValues": {},
+              "correctAnswer": "b"
+            },
+            { 
+              "type":"quantReasoning",
+              "optionalData":"",
+              "quantA":"( &0 ) ( &1 )",
+              "quantB":"&0 + &1",
+              "valueA":"",
+              "valueB":"",
+              "variableValues": {
+                "0":"rand+;1;10",
+                "1":"rand+;1;10"
+              },
+              "correctAnswer": "a"
+            },
+            { 
+              "type":"quantReasoning - WIP",
+              "optionalData":"Of &0 theater tickets sold, &1 tickets were sold at prices between $ &2 and $ &3 each and ~,&0,-,&1 tickets were sold at prices between $ ~,&2,+,&1 and $ ~,&3,+,&1 each",
+              "quantA":"The average (arithmetic mean) of the prices of the &1 tickets",
+              "quantB":"$50.00",
+              "valueA":"",
+              "valueB":50,
+              "variableValues": {
+                "0":"rand+;4;6;*;10",
+                "1":"rand+;1;3;*;10",
+                "2":"rand+;1;4;*;10",
+                "3":"rand+;4;6;*;10"
+              },
+              "correctAnswer": "a"
+            },
+            { 
+              "type":"quantReasoning",
+              "optionalData":"In the xy-plane, the point ( &0 , &1 ) is on line j, and the point ( &1 , &0 ) is on line k. Each of the lines has a positive slope.",
+              "quantA":"The slope of line j",
+              "quantB":"The slope of line k",
+              "valueA":"",
+              "variableValues": {
+                "0":"rand+;1;5",
+                "1":"rand+;1;5"
+              },
+              "correctAnswer": "d"
+            },
+            { 
+              "type":"quantReasoning",
+              "optionalData":"A right circular cylinder with radius ~,&0,*,2 inches has volume ~,&0,*,15 cubic inches. ",
+              "quantA":"The slope of line j",
+              "quantB":"The slope of line k",
+              "valueA":"The height of the cylinder",
+              "valueB":"2 inches",
+              "variableValues": {
+                "0":"rand+;1;5"
+              },
+              "correctAnswer": "d"
+            }
+    ]
+}

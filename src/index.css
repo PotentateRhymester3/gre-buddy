@@ -5,9 +5,33 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.title {
+  
+}
+
+#quantWrapper {
+  display: grid;
+  grid-template-columns: (2, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+#quantA {
+  grid-column: 1 / 2;
+}
+
+#quantB {
+  grid-column: 2 / 3;
+}
+
+.multiChoiceOption {
+  text-align:left;
 }
